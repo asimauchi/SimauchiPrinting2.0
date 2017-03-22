@@ -1,0 +1,42 @@
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+/* Promotional Banner */
+.promo-banner {
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+    padding: 2rem;
+    /* fallback for old browsers */
+    background: #F0C27B;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to left, #F0C27B , #4B1248);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, #F0C27B , #4B1248);
+
+}
+
+.promo-banner .btn {
+    background-color: white;
+    border-color: white;
+    color: black;
+    margin: .5rem;
+    font-weight: bolder;
+}
+
+.promo-banner h1, h2, h3, h4 {
+    margin: 1rem;
+}
